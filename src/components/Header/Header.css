@@ -1,0 +1,19 @@
+.logo{
+    height:150px;
+    margin-right:50px;
+}
+.bg-color{
+    background:#f1f8fc;
+}
+.bg-search{
+  background:#0074c7; 
+  color:white; 
+}
+.ft-size{
+  font-size:19px;
+  font-family:Graphik;
+}
+.item:hover{
+  font-weight:bold;
+  color:#0074c7;
+}
