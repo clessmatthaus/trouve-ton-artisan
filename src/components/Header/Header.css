@@ -1,9 +1,11 @@
 .logo{
-    height:150px;
+    height:120px;
     margin-right:50px;
 }
 .bg-color{
     background:#f1f8fc;
+    border-bottom:0.1px solid whitesmoke;
+    box-shadow: 0 0 10px #384050;
 }
 .bg-search{
   background:#0074c7; 
@@ -16,4 +18,16 @@
 .item:hover{
   font-weight:bold;
   color:#0074c7;
+}
+.links{
+  list-style-type: none;
+  list-style: none;
+  text-decoration: none;
+  color:black;
+}
+@media (max-width: 410px){
+  .logo{
+    height:150px;
+    margin-right:0px;
+}
 }

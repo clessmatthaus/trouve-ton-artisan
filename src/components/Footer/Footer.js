@@ -1,6 +1,7 @@
 import React from 'react';
 import footer from './Footer.css';
 import logos from './Logo.png';
+import {Link} from 'react-router-dom';
 
 function Footer() {
   return (
@@ -28,10 +29,10 @@ function Footer() {
         <div className="liens">
             <h4>Liens</h4>
             <ul>
-                <li>Accueil</li>
-                <li>Bâtiment</li>
-                <li>Services</li>
-                <li>Alimentation</li>
+                <li><Link class="links" to="/">Accueil</Link></li>
+                <li><Link class="links" to="/batiment">Bâtiment</Link></li>
+                <li><Link class="links" to="/services">Services</Link></li>
+                <li><Link class="links" to="/alimentation">Alimentation</Link></li>
             </ul>
         </div>
         <div className="ste-adress">
@@ -53,7 +54,7 @@ function Footer() {
         </div>
     </div>
     <div className="copyrith">
-        &#169;  Design par Cless Matthaüs 
+        &#169;  Développé par Cless Matthaüs 
     </div>
     </div>
     </>
