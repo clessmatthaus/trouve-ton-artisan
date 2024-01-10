@@ -8,9 +8,15 @@ import starregular from './star-regular.svg';
 import starstroke from './starstroke.svg';
 import click from './fing.gif';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {useState, useRef} from "react";
+import {useParams} from 'react-router-dom';
+import artisanData from './datas.json';
 
 function Artisan() {
   
+  let {artisanId} = useParams();
+  const artisan = artisanData.find((a)=>a.id == artisanId);
+
   return (
   <>
 <div className="artisans">
@@ -27,7 +33,7 @@ function Artisan() {
         <i className="fas fa-star"><img src={starsolid} alt=""/></i>
         <i className="fas fa-star"><img src={starsolid} alt=""/></i>
          ( 5/5 )</Card.Text>
-      <Button variant="primary" className="btn-bg">Contacter</Button>
+      <Link to="./artisan/9"><Button variant="primary" className="btn-bg">Contacter l'artisan</Button></Link>
     </Card.Body>
   </Card>
   <Card className="card-style">
@@ -43,11 +49,11 @@ function Artisan() {
         <i className="fas fa-star"><img src={starsolid} alt=""/></i>
         <i className="fas fa-star"><img src={starstroke} alt=""/></i>
         ( 4.9/5 )</Card.Text>
-      <Button variant="primary" className="btn-bg">Contacter</Button>
+        <Link to="./artisan/4"><Button variant="primary" className="btn-bg">Contacter l'artisan</Button></Link>
     </Card.Body>
   </Card>
   <Card className="card-style">
-  <Card.Img className="card-img" variant="top" src=".//boulanger.png" alt=""/>
+  <Card.Img className="card-img" variant="top" src="./boulanger.png" alt=""/>
   <Card.Body>
     <Card.Title className='art-name'>Au pain chaud</Card.Title>
     <Card.Text>Boulanger</Card.Text>
@@ -59,7 +65,7 @@ function Artisan() {
     <i className="fas fa-star"><img src={starsolid} alt=""/></i>
     <i className="fas fa-star"><img src={starregular} alt=""/></i>
       ( 4.8/5 )</Card.Text>
-    <Button variant="primary" className="btn-bg">Contacter</Button>
+      <Link to="./artisan/10"><Button variant="primary" className="btn-bg">Contacter l'artisan</Button></Link>
   </Card.Body>
 </Card>
 </div><Link to="/listeartisans"  className="links-style">

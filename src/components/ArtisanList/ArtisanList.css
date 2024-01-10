@@ -14,7 +14,7 @@
     flex-direction:row;
     flex-wrap:wrap;
     justify-content:center;
-    gap:20px;
+    gap:30px;
     margin:20px 0;
     padding:20px 0;
   }
@@ -51,8 +51,23 @@
     align-items: center;
     display: flex;
   }
- 
-  .btn{
+ .category-filter{
+  margin-top:20px;
+  display:flex;
+  gap:10px;
+  justify-content:center;
+  align-items:center;
+  
+ }
+ .category-filter p{
+  text-align:center;
+  margin-top:10px;
+ }
+ .category-filter button{
+  font-size:11px;
+  font-weight:bold;
+ }
+  .btnz{
     padding: 5px 10px;
     border: 0.3px solid white;
     background-color: #384050;
@@ -127,7 +142,7 @@
   }
   .card-styles{
     width:390px;
-    height:240px; 
+    height:270px; 
     padding-top:20px;
     justify-content: center;
     align-items: center;
@@ -139,12 +154,26 @@
     z-index:3;
     box-shadow: 0 3px 5px -1px #f1f8fc ,  0 5px 5px gray, 0 1px 10px #f1f8fc ;
 }
+.sort-div{
+  padding:20px;
+  width:306px;
+  z-index:5;
+}
 .art-names{
     color:#0074c7;
     font-weight:bold;
 }
 .art-city{
     font-weight:bold;
+}
+.art-cate{
+  margin-top:10px;
+  color:#00497c;
+}
+
+.link-back img{
+  margin-top:-12px;
+  width:10px;
 }
 .btns{
     background-color:#384050; 
@@ -221,6 +250,9 @@
   }
   @media (max-width: 432px)
   {
+    .card-styles{
+      width:310px;
+  }
     .tri{
       flex-direction: column;
       justify-content: center;

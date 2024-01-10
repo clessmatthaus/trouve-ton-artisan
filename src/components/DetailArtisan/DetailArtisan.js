@@ -4,6 +4,7 @@ import {Link, useParams} from 'react-router-dom';
 import artisanData from './datas.json';
 import starsolid from './star-solid.svg';
 import logo from './favicon-32.png';
+import left from './left.svg';
 import './DetailArtisan.css';
 
 function DetailArtisan() {
@@ -64,21 +65,20 @@ function DetailArtisan() {
     if(Object.keys(validationErrors).length === 0){
       alert("Message envoyé avec succès")
     }
-   
 
   }
 
   return (
 <div className="detail-container">
     <div className="detail-content">
-         <div className="link-back"><p><Link to="/listeartisans" className="links-style">Liste des artisans</Link></p>  <p>Détail fiche artisan</p> </div>  
+         <div className="link-back"><p><Link to="/listeartisans" className="links-style">Liste des artisans</Link></p><img src={left} alt=""/>  <p>Détails artisan</p> </div>  
          <div className="fiche-artisan">
            <span></span><h2>{artisan.name}</h2><span></span>
          </div>
         <div className="details-infos">
            <div className="infos"> 
              <div className="infos-f">
-                <img src={logo} alt="logo" width="46px"/>
+                <img src={logo} alt="logo" width="46px" className="logos"/>
               <h3>{artisan.name}</h3>
               <p>Note : <img src={starsolid} alt="img"/> x {artisan.note}</p>
               <p>Métier : {artisan.specialty}</p>
@@ -98,7 +98,7 @@ function DetailArtisan() {
        
         <div className='card-content'>
         <div className="card-content1">
-          <h1>Formulaire de contact</h1>
+          <h1 id="contact-title">Formulaire de contact</h1>
           <div className="head-title">
           <p>Pour contacter <b>{artisan.name}</b> en vue d'une future collaboration, merci de remplir le formulaire de contact</p>
           </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import header from './Header.css'
+import {useState} from "react";
 import {NavLink, Link} from 'react-router-dom';
 import logos from './Logo.png';
 import Button from 'react-bootstrap/Button';
@@ -19,18 +20,18 @@ function Header() {
     <Navbar expand="lg" className="bg-color">
       <Container fluid>
         <Navbar.Brand><a className="colorLog"><Link class="links" to="/"><img className="logo" src={logos} alt="logo..."/></Link></a></Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll">
+        <Navbar.Toggle  aria-controls="navbarScroll"/>
+        <Navbar.Collapse id="navbarScroll" >
           <Nav
             className="me-auto my-2 my-lg-0 ft-size"
             style={{ maxHeight: '230px' }}
             navbarScroll
-          >
-            <Nav.Link className="item"><Link class="links" to="/">Accueil</Link></Nav.Link>
-            <Nav.Link className="item"><Link class="links" exact to="/alimentation">Alimentation</Link></Nav.Link>
-            <Nav.Link className="item"><Link class="links" exact to="/batiment">Bâtiment</Link></Nav.Link>
-            <Nav.Link className="item"><Link class="links" exact to="/fabrication">Fabrication</Link></Nav.Link>
-            <Nav.Link className="item"><Link class="links" exact to="/services">Services</Link></Nav.Link>           
+          > 
+            <Nav.Link as={Link} to="/">Accueil</Nav.Link>
+            <Nav.Link as={Link} to="/alimentation">Alimentation</Nav.Link>
+            <Nav.Link as={Link} to="/batiment">Bâtiment</Nav.Link>
+            <Nav.Link as={Link} to="/fabrication">Fabrication</Nav.Link>
+            <Nav.Link as={Link} to="/services">Services</Nav.Link>          
           </Nav>
           <Form className="d-flex">
             <Form.Control
