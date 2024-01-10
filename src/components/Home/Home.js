@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './favicon-32.png';
 import artisans from './artisan.webp';
-import home from './Home.css';
+import './Home.css';
 import Artisan from '../../Container/Artisan';
 
 

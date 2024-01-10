@@ -1,7 +1,7 @@
 import React from 'react'
 import Errors from './Errors.gif'
 import {Link} from 'react-router-dom';
-import notFound from './NotFound.css';
+import './NotFound.css';
 
 function NotFound() {
     window.scrollTo(0,0)

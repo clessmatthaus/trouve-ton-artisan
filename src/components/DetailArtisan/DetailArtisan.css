@@ -1,0 +1,142 @@
+.detail-container{
+    width:100%;
+    height:100%;
+    background-image:url('./carte-ara.jpg');
+    background-size:650px;
+    background-position:top;
+    background-repeat:no-repeat; 
+}
+.detail-content{
+    width:100%;
+    height:100%;
+    background-color:transparent; 
+    z-index:5;
+}
+.details-infos{
+    display:flex;
+    width:100%;
+    height:100%;
+    flex-direction:row; 
+    height:400px;
+    padding:50px;
+    margin:30px 0;
+    justify-content:space-around;
+    gap:0px;
+    z-index:5;
+}
+.infos{
+    padding:0 20px;
+    display:flex;
+    flex-direction:column;
+    width:30%; 
+    align-items:center; 
+}
+.infos-f{
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center; 
+    justify-content:center;
+    padding:10px 90px;
+    border-radius:10px;
+    font-weight:bold;
+    gap:10px;
+    background-color:#f1f8fc ;
+}
+.infos-f h3 {
+    font-weight:bold;
+    color:#0074c7 ; 
+}
+.about{    
+    padding: 20px;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    width:40%; 
+    justify-content:center;
+    background-color:transparent;
+    backdrop-filter: blur(3px);
+    border-radius:10px;
+}
+.about h4{
+    text-align:start;
+    font-weight:bold;
+    color:black;
+}
+
+.fiche-artisan {
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-top:40px;
+   
+}
+.fiche-artisan h2{
+ font-weight:bold;
+ color:#0074c7;
+}
+.fiche-artisan span {
+    border: 1px solid #00497c;
+    border-radius:10px ;
+    padding:5px;
+    background-color:#00497c;
+    margin:0 10px;
+    width: 180px;
+}
+/*****************Contact form***********************/
+.card-contact {
+    width: 100%;
+    height: 100%;
+    padding: 0px 30px;
+    padding-bottom: 70px;
+    background: white;
+  }
+  .form-contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .card-content {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: block;
+  }
+  .card-content1 {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+  }
+  .card-content1 input {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 13px;
+    height: 35px;
+    padding: 0px 10px;
+    border: 2px solid whitesmoke;
+  }
+  .card-content1 textarea {
+    height: 200px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-size: 13px;
+    border: 2px solid whitesmoke;
+  }
+  .card-content1 button {
+    border: 1px solid #f1f8fc;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 50px;
+    font-size: 15px;
+    align-self: center;
+    cursor: pointer;
+    background: #00497c ;
+  }
+  .head-title{
+    padding:30px;
+  }

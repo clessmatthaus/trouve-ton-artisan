@@ -25,7 +25,7 @@ function ArtisanList() {
 
     return (
     <> 
-    <div className="link-back"><p><Link to="/" className="links-style">Accueil</Link></p> <p> > </p> <p>Liste des artisans</p> </div>    
+    <div className="link-back"><p><Link to="/" className="links-style">Accueil</Link></p>  <p>Liste des artisans</p> </div>    
     <div className="section">
       <div className="input-group  mt-5 input-search"> 
         <input className="form-control" placeholder="nom, spécialité, ville, catégorie..." type="text" onChange={e=> setQuery(e.target.value)}/> 
@@ -34,7 +34,8 @@ function ArtisanList() {
        
       <div className="product-list">  
       { artisanData.filter(artisan=>artisan.name.toLowerCase().includes(query)||artisan.specialty.toLowerCase().includes(query)||artisan.location.toLowerCase().includes(query)||artisan.category.toLowerCase().includes(query)||artisan.note.includes(query)).map((artisan)=> (
-          
+        
+         <Link className="links-style" to={`/artisan/${artisan.id}`}>
                <Card className="card-styles">
                <Card.Body className='art-body'> 
                <Card.Title className='art-names'>{artisan.name}</Card.Title>
@@ -46,6 +47,7 @@ function ArtisanList() {
                <Button variant="primary" className="btns">Pour plus de details</Button>  
                </Card.Body>
                </Card>
+          </Link>
         ))}
       </div>
     </div>
