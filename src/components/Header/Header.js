@@ -23,22 +23,23 @@ function Header() {
         <Navbar.Collapse id="navbarScroll">
           <Nav
             className="me-auto my-2 my-lg-0 ft-size"
-            style={{ maxHeight: '180px' }}
+            style={{ maxHeight: '230px' }}
             navbarScroll
           >
             <Nav.Link className="item"><Link class="links" to="/">Accueil</Link></Nav.Link>
-            <Nav.Link className="item"><Link class="links" exact to="/batiment">Bâtiment</Link></Nav.Link>
-            <Nav.Link className="item"><Link class="links" exact to="/services">Services</Link></Nav.Link>
             <Nav.Link className="item"><Link class="links" exact to="/alimentation">Alimentation</Link></Nav.Link>
+            <Nav.Link className="item"><Link class="links" exact to="/batiment">Bâtiment</Link></Nav.Link>
+            <Nav.Link className="item"><Link class="links" exact to="/fabrication">Fabrication</Link></Nav.Link>
+            <Nav.Link className="item"><Link class="links" exact to="/services">Services</Link></Nav.Link>           
           </Nav>
           <Form className="d-flex">
             <Form.Control
               type="search"
-              placeholder="Rechercher un artisan "
+              placeholder="nom, ville, spécialité"
               className="me-2"
               aria-label="Search"
             />
-            <Button variant="outline-primary bg-search">Chercher</Button>
+            <Button variant="outline-primary bg-search">Rechercher</Button>
           </Form>
         </Navbar.Collapse>
         </Container>

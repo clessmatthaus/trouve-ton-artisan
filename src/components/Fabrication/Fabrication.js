@@ -1,12 +1,12 @@
 import React from 'react'
 
-function Services() {
+function Fabrication() {
   window.scrollTo(0,0)
   return (
     <div>
-      <h1>SERVICES</h1>
+      <h1>Fabrication</h1>
     </div>
   )
 }
 
-export default Services
+export default Fabrication

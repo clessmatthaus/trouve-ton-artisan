@@ -1,15 +1,18 @@
 import React from 'react'
+import {Link} from 'react-router-dom';
 import artisan from './Artisan.css'
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import starsolid from './star-solid.svg';
 import starregular from './star-regular.svg';
 import starstroke from './starstroke.svg';
+import click from './fing.gif';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 function Artisan() {
   
   return (
+  <>
 <div className="artisans">
     <Card className="card-style">
     <Card.Img className="card-img" variant="top" src="./chaufaggiste.jpg" alt=""/>
@@ -24,7 +27,7 @@ function Artisan() {
         <i className="fas fa-star"><img src={starsolid} alt=""/></i>
         <i className="fas fa-star"><img src={starsolid} alt=""/></i>
          ( 5/5 )</Card.Text>
-      <Button variant="primary" className="btn-bg">En savoir plus</Button>
+      <Button variant="primary" className="btn-bg">Contacter</Button>
     </Card.Body>
   </Card>
   <Card className="card-style">
@@ -40,7 +43,7 @@ function Artisan() {
         <i className="fas fa-star"><img src={starsolid} alt=""/></i>
         <i className="fas fa-star"><img src={starstroke} alt=""/></i>
         ( 4.9/5 )</Card.Text>
-      <Button variant="primary" className="btn-bg">En savoir plus</Button>
+      <Button variant="primary" className="btn-bg">Contacter</Button>
     </Card.Body>
   </Card>
   <Card className="card-style">
@@ -56,10 +59,15 @@ function Artisan() {
     <i className="fas fa-star"><img src={starsolid} alt=""/></i>
     <i className="fas fa-star"><img src={starregular} alt=""/></i>
       ( 4.8/5 )</Card.Text>
-    <Button variant="primary" className="btn-bg">En savoir plus</Button>
+    <Button variant="primary" className="btn-bg">Contacter</Button>
   </Card.Body>
 </Card>
-    </div>
+</div><Link to="/listeartisans"  className="links-style">
+<div className="nos-artisans">
+ <h5>Voir la liste des artisans</h5>
+  <img src={click} alt=""/>
+</div></Link>
+</>
   )
 }
 

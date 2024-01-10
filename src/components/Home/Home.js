@@ -6,6 +6,7 @@ import Artisan from '../../Container/Artisan';
 
 
 function Home() {
+  window.scrollTo(0,0)
   return (
     <div className="home-container"> 
         <h1>Comment trouver mon artisan ?</h1>

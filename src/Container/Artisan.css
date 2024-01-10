@@ -10,7 +10,7 @@
 }
 .card-style{
     width:510px;
-    height:400px; 
+    height:440px; 
     justify-content: center;
     align-items: center;
     text-align:center;
@@ -28,4 +28,27 @@
 .btn-bg{
     background-color:#00497c;
     color:white;
+}
+.nos-artisans{
+    margin-top:60px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:3px;
+    cursor:pointer;
+}
+h5{
+    border:#0074c7;
+    padding:10px 26px;
+    border-radius:6px;
+    text-align:center;
+    background-color:#0074c7;
+    color:white;
+    font-size:16px;
+    
+}
+.nos-artisans img{
+    width:100px;
+    margin-top:-50px;
 }
