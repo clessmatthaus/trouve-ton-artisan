@@ -152,7 +152,7 @@ ul li{
         padding:0 50px;
     }
     ul li{
-        font-size: 8px
+        font-size: 12px
     }
     .mentions ul{
         display:flex;
@@ -216,10 +216,10 @@ ul li{
         height:20px;
     }
     .ste{
-        font-size: 9px;
+        font-size: 12px;
     }
     h4{
-        font-size: 11px;
+        font-size: 15px;
     }
     .copyrith{
         font-size:14px;

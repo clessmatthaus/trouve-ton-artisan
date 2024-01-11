@@ -15,18 +15,18 @@ import NotFound from './components/NotFound/NotFound';
 function App() {
   return (
     <div className="App">    
-        <Header />
+        
         <Routes>
           <Route path='/' element={<Home/>} />
-          <Route exact path='/batiment' element={<Batiment/>} />
-          <Route exact path='/services' element={<Services/>} />
-          <Route exact path='/alimentation' element={<Alimentation/>} />
-          <Route exact path='/fabrication' element={<Fabrication/>} />
-          <Route exact path='/artisan/:artisanId' element={<DetailArtisan/>} />
-          <Route exact path='/listeartisans' element={<ArtisanList/>} />
-          <Route exact path='*' element={<NotFound/>} />
-        </Routes>
-        <Footer />
+          <Route path='/batiment' element={<Batiment/>} />
+          <Route path='/services' element={<Services/>} />
+          <Route path='/alimentation' element={<Alimentation/>} />
+          <Route path='/fabrication' element={<Fabrication/>} />
+          <Route path='/artisan/:artisanId' element={<DetailArtisan/>} />
+          <Route path='/listeartisans' element={<ArtisanList/>} />
+          <Route path='*' element={<NotFound/>} />
+          </Routes>
+        
     </div> 
   );
 }

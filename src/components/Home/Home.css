@@ -136,7 +136,7 @@ ol li:hover span{
     ol li{
         margin-bottom:20px;
         cursor:pointer;
-        font-size:14px;
+        font-size:17px;
         position:relative;
     }
 }
@@ -151,7 +151,7 @@ ol li:hover span{
     ol li{
         margin-bottom:10px;
         cursor:pointer;
-        font-size:12px;
+        font-size:17px;
         position:relative;
     }
 }
@@ -252,7 +252,7 @@ ol li:hover span{
         width:60px;
         background-color:#00497c;
         margin-top:-210px;
-        margin-right:280px;
+        margin-right:320px;
     }
     .best-artisans span {
         width:20px;
@@ -260,7 +260,7 @@ ol li:hover span{
     ol li{
         margin-bottom:10px;
         cursor:pointer;
-        font-size:11px;
+        font-size:15px;
         position:relative;
     }
     .art-img img{
@@ -271,7 +271,7 @@ ol li:hover span{
         font-family:Graphik;
         text-align:center;
         font-weight:bold;
-        font-size:16px;
+        font-size:20px;
         color:#00497c;
     }
 }
@@ -284,7 +284,7 @@ ol li:hover span{
     ol li{
         margin-bottom:10px;
         cursor:pointer;
-        font-size:10px;
+        font-size:12px;
         position:relative;
     }
     .art-img{        
@@ -295,7 +295,27 @@ ol li:hover span{
         font-family:Graphik;
         text-align:center;
         font-weight:bold;
-        font-size:12px;
+        font-size:18px;
+        color:#00497c;
+    }
+}
+@media (max-width: 380px){
+    .art-jobs img{
+        height: 220px;
+        width:100%;
+        margin:0;
+    }
+    ol li{
+        margin-bottom:10px;
+        cursor:pointer;
+        font-size:10px;
+        position:relative;
+    }
+    h1{
+        font-family:Graphik;
+        text-align:center;
+        font-weight:bold;
+        font-size:16px;
         color:#00497c;
     }
 }
@@ -310,5 +330,12 @@ ol li:hover span{
         cursor:pointer;
         font-size:8px;
         position:relative;
+    }
+    h1{
+        font-family:Graphik;
+        text-align:center;
+        font-weight:bold;
+        font-size:14px;
+        color:#00497c;
     }
 }

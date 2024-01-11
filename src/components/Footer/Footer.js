@@ -8,10 +8,10 @@ function Footer() {
     <>
     <div className="mentions">
         <ul>
-            <li>mentions légales</li>
-            <li>données personnelles</li>
-            <li>accesibilité</li>
-            <li>cookies</li>
+            <Link to="*" className="links"><li>mentions légales</li></Link>
+            <Link to="*" className="links"><li>données personnelles</li></Link>
+            <Link to="*" className="links"><li>accesibilité</li></Link>
+            <Link to="*" className="links"><li>cookies</li></Link>
         </ul>
 
     </div>

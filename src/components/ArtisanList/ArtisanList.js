@@ -1,4 +1,6 @@
 import React from 'react';
+import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
 import {Link} from 'react-router-dom';
 import artisanList from './ArtisanList.css';
 import Card from 'react-bootstrap/Card';
@@ -12,8 +14,12 @@ import {useState, useEffect} from 'react';
 import Select from 'react-select';
 import artisanData from './datas.json';
 
+
 function ArtisanList() {
   window.scrollTo(0,0)
+
+  
+
    const [query, setQuery] = useState("");
    const [selectedCategory, setSelectedCategory] = useState(null);
    //console.log(query);
@@ -21,6 +27,7 @@ function ArtisanList() {
    const sorting = (cat) => {
       const result = artisanData.filter((currentData)=>{
         return currentData.category=== cat;
+  
       });
       setData(result);
    }
@@ -36,6 +43,7 @@ function ArtisanList() {
 
     return (
     <> 
+    <Header />
     <div className="link-back"><Link to="/" className="links-style"><p>Accueil</p></Link><img src={left} alt=""/> <p>Liste des artisans</p> </div>    
     <div className="section">
       <div className="input-group  mt-5 input-search"> 
@@ -70,6 +78,7 @@ function ArtisanList() {
         ))}
       </div>
     </div>
+    <Footer />
     </>
     )
 }

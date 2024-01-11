@@ -6,6 +6,8 @@ import starsolid from './star-solid.svg';
 import logo from './favicon-32.png';
 import left from './left.svg';
 import './DetailArtisan.css';
+import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
 
 function DetailArtisan() {
   window.scrollTo(0,0)
@@ -69,6 +71,8 @@ function DetailArtisan() {
   }
 
   return (
+    <>
+    <Header />
 <div className="detail-container">
     <div className="detail-content">
          <div className="link-back"><p><Link to="/listeartisans" className="links-style">Liste des artisans</Link></p><img src={left} alt=""/>  <p>Détails artisan</p> </div>  
@@ -121,6 +125,8 @@ function DetailArtisan() {
 
     </div>
 </div>
+<Footer />
+</>
   )
 }
 

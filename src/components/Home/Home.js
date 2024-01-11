@@ -3,12 +3,16 @@ import logo from './favicon-32.png';
 import artisans from './artisan.webp';
 import './Home.css';
 import Artisan from '../../Container/Artisan';
+import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
 
 
 function Home() {
   window.scrollTo(0,0)
 
   return (
+    <>
+    <Header />
     <div className="home-container"> 
         <h1>Comment trouver mon artisan ?</h1>
         <div className="artisan-block">
@@ -36,6 +40,8 @@ function Home() {
      <Artisan/>
       </div>
     </div>
+    <Footer />
+    </>
   )
 }
 

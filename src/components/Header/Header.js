@@ -1,7 +1,7 @@
 import React from 'react'
-import header from './Header.css'
+import './Header.css'
 import {useState} from "react";
-import {NavLink, Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 import logos from './Logo.png';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
@@ -15,37 +15,46 @@ import {faBars} from "@fortawesome/free-solid-svg-icons";
 
 
 function Header() {
+
   return (
-  <header className="header-nav">
-    <Navbar expand="lg" className="bg-color">
-      <Container fluid>
-        <Navbar.Brand><a className="colorLog"><Link class="links" to="/"><img className="logo" src={logos} alt="logo..."/></Link></a></Navbar.Brand>
-        <Navbar.Toggle  aria-controls="navbarScroll"/>
-        <Navbar.Collapse id="navbarScroll" >
-          <Nav
-            className="me-auto my-2 my-lg-0 ft-size"
-            style={{ maxHeight: '230px' }}
-            navbarScroll
-          > 
-            <Nav.Link as={Link} to="/">Accueil</Nav.Link>
-            <Nav.Link as={Link} to="/alimentation">Alimentation</Nav.Link>
-            <Nav.Link as={Link} to="/batiment">Bâtiment</Nav.Link>
-            <Nav.Link as={Link} to="/fabrication">Fabrication</Nav.Link>
-            <Nav.Link as={Link} to="/services">Services</Nav.Link>          
-          </Nav>
-          <Form className="d-flex">
-            <Form.Control
-              type="search"
-              placeholder="nom, ville, spécialité"
-              className="me-2"
-              aria-label="Search"
-            />
-            <Button variant="outline-primary bg-search">Rechercher</Button>
-          </Form>
-        </Navbar.Collapse>
-        </Container>
-    </Navbar>
-</header>
+<nav className="navbar navbar-expand-lg header-nav">
+  <NavLink exact to="/" activeClassName="navActive">
+  <a className="colorLog"  href="#"><img className="logo" src={logos} alt="logo..."/></a>
+  </NavLink>
+  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav " aria-expanded="false" aria-label="Toggle navigation">
+  <FontAwesomeIcon icon={faBars} style={{color:"#0074c7"}}/>
+  </button>
+  <div className="collapse navbar-collapse" id="navbarNav">
+    <ul className="navbar-nav bar-nav">
+      
+      <li className="nav-item active">
+        <NavLink exact to="/" activeClassName="navActive">
+          <a className="nav-link" href="#">Accueil </a> 
+        </NavLink>
+      </li>
+      <li className="nav-item">
+        <NavLink exact to="/alimentation" activeClassName="navActive">
+          <a className="nav-link" href="#">Alimentation</a>
+        </NavLink> 
+      </li>
+      <li className="nav-item">
+        <NavLink exact to="/batiment" activeClassName="navActive">
+          <a className="nav-link" href="#">Bâtiment</a>
+        </NavLink>
+      </li>
+      <li className="nav-item">
+        <NavLink exact to="/fabrication" activeClassName="navActive">
+          <a className="nav-link" href="#">Fabrication</a>
+        </NavLink>
+      </li>
+      <li className="nav-item">
+        <NavLink exact to="/services" activeClassName="navActive">
+          <a className="nav-link" href="#">Services</a>
+        </NavLink>
+      </li>
+    </ul>
+  </div>
+</nav>
   )
 }
 
