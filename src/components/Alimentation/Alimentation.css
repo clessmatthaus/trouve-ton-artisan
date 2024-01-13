@@ -1,0 +1,87 @@
+.alimentation{
+    height:100%;
+}
+.alim-container{
+    display:flex;
+    height:500px;
+    flex-direction:row;
+    background-color:#82b864;
+    color:white;
+    gap:10px;
+}
+.alim-container h1{
+    color:white;
+}
+.div-infos{
+    padding:20px;
+    width:50%;
+}
+.div-img{
+    width:50%;
+    background-image:url('./alimentaire3.jpg');
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.chiffre-emploi{
+    width:450px;
+    padding:10px;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    gap:5;
+    font-size:19px;
+    font-weight:bold;
+    border:1px solid #384050;
+    background-color:#384050;
+    opacity:0.5;
+    border-radius:10px;  
+}
+.div-p1{
+    justify-content:center;
+    align-items:center;
+    padding:10px;
+}
+.div-p1 p{
+    color:#82b864;
+    font-size:22px;
+}
+.list-artisans{
+    margin:50px 0;
+}
+.metiers-ali{
+    margin:50px 0;
+    padding:50px;
+}
+.metiers{
+    margin:50px 0;
+    padding:20px 0;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    gap:40px;
+}
+.img-metier{
+    width:40%;
+    border-top:1px solid #82b864;
+    border-bottom:1px solid #82b864;
+    padding:20px 0;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:20px;
+}
+.img-metier img{
+    border:0.3px solid white;
+    border-radius:10px;
+}
+.btn-color{
+    color:white;
+    background-color:#82b864;
+    border:0.3px solid white;
+    font-size:12px;
+}

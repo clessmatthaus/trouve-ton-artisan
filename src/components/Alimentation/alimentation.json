@@ -1,0 +1,38 @@
+[
+    {
+		"id": 4,
+		"name": "Chocolaterie Labbé",
+		"specialty": "Chocolatier",
+		"note": "4.9",
+		"location": "Grenoble",
+		"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend ante sem, id volutpat massa fermentum nec. Praesent volutpat scelerisque mauris, quis sollicitudin tellus sollicitudin. ",
+		"email":"chocolaterie-labbe@gmail.com",
+		"website":"https://chocolaterie-labbe.fr",
+		"category":"Alimentation",
+		"top": true
+	},
+    {
+		"id": 10,
+		"name": "Au pain chaud",
+		"specialty": "Boulanger",
+		"note": "4.8",
+		"location": "Montélimar",
+		"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend ante sem, id volutpat massa fermentum nec. Praesent volutpat scelerisque mauris, quis sollicitudin tellus sollicitudin. ",
+		"email":"aupainchaud@hotmail.com",
+		"website":"",
+		"category":"Alimentation",
+		"top": true
+	},
+    {
+		"id": 11,
+		"name": "Boucherie Dumont",
+		"specialty": "Boucher",
+		"note": "4.5",
+		"location": "Lyon",
+		"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend ante sem, id volutpat massa fermentum nec. Praesent volutpat scelerisque mauris, quis sollicitudin tellus sollicitudin. ",
+		"email":"boucherie.dumond@gmail.com",
+		"website":"",
+		"category":"Alimentation",
+		"top": false
+	}
+]

@@ -21,7 +21,7 @@
 }
 
 .nav-item a {
-  margin: 0 60px;
+  margin: 0 40px;
   text-decoration: none;
   color: black;
 }
@@ -37,7 +37,6 @@ nav a.nav-link {
 .nav-link:hover {
   color: #0074c7;
   font-weight: bold;
-  text-shadow: 0 0 20px #0074c7;
 }
 .navbar-toggler {
   color: #0074c7;

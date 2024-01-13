@@ -1,7 +1,8 @@
 .footer-content{
     border:0.1px solid #f1f8fc;
-    background-color: #f1f8fc;
+    background-color: #00497c;
     border-radius:100px 100px 0 0;
+    color:white;
 }
 .footer-container{
     display:flex;
@@ -25,9 +26,9 @@
     width:100%;
     height:140px;
     padding:0 50px; 
-    background-color:#0074c7; 
+    background-color:#384050; 
     margin-bottom:-60px;
-    border:0.3px solid #0074c7;
+    border:3px solid white;
     gap:5px;
     border-radius:20px;
 }
@@ -55,15 +56,16 @@
 }
 h4{
     text-align:center;
-    color:#00497c;
+    color:white;
     font-weight:bold;
     font-family:Graphik;
 }
 .links{
     list-style-type: none;
     list-style: none;
+    font-weight: bold;
     text-decoration: none;
-    color:black;
+    color:white;
 }
 .ste{
     width:350px;
@@ -161,9 +163,9 @@ ul li{
         justify-content:space-around;
         width:100%;
         height:150px;
-        background-color:#0074c7; 
+        background-color:#384050; 
+        border:3px solid white;
         margin-bottom:-50px;
-        border:0.3px solid #0074c7;
         border-radius:20px;
     }
   }
@@ -200,9 +202,9 @@ ul li{
         justify-content:space-around;
         width:100%;
         height:120px;
-        background-color:#0074c7; 
         margin-bottom:-70px;
-        border:0.3px solid #0074c7;
+        background-color:#384050; 
+        border:3px solid white;
         border-radius:20px;
     }
     .mentions ul li{
