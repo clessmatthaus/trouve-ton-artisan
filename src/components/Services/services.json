@@ -1,0 +1,78 @@
+[
+
+    {
+		"id": 3,
+		"name": "Leala Dennis",
+		"specialty": "Coiffeur",
+		"note": "3.8",
+		"location": "Chambéry",
+		"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend ante sem, id volutpat massa fermentum nec. Praesent volutpat scelerisque mauris, quis sollicitudin tellus sollicitudin. ",
+		"email":"l.dennos@hotmail.fr",
+		"website":"https://coiffure-leala-chambery.fr",
+		"category":"Services",
+		"image": "assets/boulanger.png",
+		"top": false
+	},
+    {
+		"id": 6,
+		"name": "Valérie Laderoute",
+		"specialty": "Toiletteur",
+		"note": "4.5",
+		"location": "Valence",
+		"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend ante sem, id volutpat massa fermentum nec. Praesent volutpat scelerisque mauris, quis sollicitudin tellus sollicitudin. ",
+		"email":"v-laredoute@gmail.com",
+		"website":"",
+		"category":"Services",
+		"top": false
+	},
+    {
+		"id": 8,
+		"name": "CM Graphisme",
+		"specialty": "Webdesign",
+		"note": "4.4",
+		"location": "Valence",
+		"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend ante sem, id volutpat massa fermentum nec. Praesent volutpat scelerisque mauris, quis sollicitudin tellus sollicitudin. ",
+		"email":"contact@cm-graphisme.com",
+		"website":"https://cm-graphisme.com",
+		"category":"Services",
+		"top": false
+	},
+    {
+		"id": 14,
+		"name": "Le monde des fleurs",
+		"specialty": "Fleuriste",
+		"note": "4.6",
+		"location": "Annonay",
+		"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend ante sem, id volutpat massa fermentum nec. Praesent volutpat scelerisque mauris, quis sollicitudin tellus sollicitudin. ",
+		"email":"contact@le-monde-des-fleurs-annonay.fr",
+		"website":"https://le-monde-des-fleurs-annonay.fr",
+		"category":"Services",
+		"top": false
+	},
+    {
+		"id": 15,
+		"name": "Royden Charbonneau",
+		"specialty": "Carrossier",
+		"note": "3.8",
+		"location": "Saint-Priest",
+		"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend ante sem, id volutpat massa fermentum nec. Praesent volutpat scelerisque mauris, quis sollicitudin tellus sollicitudin. ",
+		"email":"r.charbonneau@gmail.com",
+		"website":"",
+		"category":"Services",
+		"top": false
+	},
+   
+    {
+		"id": 17,
+		"name": "C'est sup'hair",
+		"specialty": "Coiffeur",
+		"note": "4.1",
+		"location": "Romans-sur-Isère",
+		"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend ante sem, id volutpat massa fermentum nec. Praesent volutpat scelerisque mauris, quis sollicitudin tellus sollicitudin. ",
+		"email":"sup-hair@gmail.com",
+		"website":"https://sup-hair.fr",
+		"category":"Services",
+		"top": false
+	}
+    
+]

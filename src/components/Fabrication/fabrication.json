@@ -1,0 +1,39 @@
+[
+    {
+    "id": 2,
+    "name": "Amitee Lécuyer",
+    "specialty": "Couturier",
+    "note": "4.5",
+    "location": "Annecy",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend ante sem, id volutpat massa fermentum nec. Praesent volutpat scelerisque mauris, quis sollicitudin tellus sollicitudin. ",
+    "email":"a.amitee@hotmail.com",
+    "website":"https://lecuyer-couture.com",
+    "category":"Fabrication",
+    "image": "assets/boulanger.png",
+    "top": false
+},
+{
+    "id": 5,
+    "name": "Claude Quinn",
+    "specialty": "Bijoutier",
+    "note": "4.2",
+    "location": "Aix-les-bains",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend ante sem, id volutpat massa fermentum nec. Praesent volutpat scelerisque mauris, quis sollicitudin tellus sollicitudin. ",
+    "email":"claude.quinn@gmail.com",
+    "website":"",
+    "category":"Fabrication",
+    "top": false
+},
+{
+    "id": 16,
+    "name": "Ernest Carignan",
+    "specialty": "Ferronier",
+    "note": "5",
+    "location": "Le Puy-en-Velay",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend ante sem, id volutpat massa fermentum nec. Praesent volutpat scelerisque mauris, quis sollicitudin tellus sollicitudin. ",
+    "email":"e-carigan@hotmail.com",
+    "website":"",
+    "category":"Fabrication",
+    "top": false
+}
+]

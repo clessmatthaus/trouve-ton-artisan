@@ -1,0 +1,392 @@
+.batiment{
+    height:100%;
+}
+.alims-container{
+    display:flex;
+    height:500px;
+    flex-direction:row;
+    background-color:#cd2c2e;
+    color:white;
+    gap:10px;
+}
+.alims-container h1{
+    color:white;
+    margin-bottom:30px;
+}
+.alims-container p{
+    font-size:19px;
+}
+.divs-infos{
+    padding:20px 40px;
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.divs-img{
+    width:50%;
+    background-image:url('./batiment.jpg');
+    background-size:cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.chiffre-emplois{
+    width:450px;
+    padding:10px;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    gap:5;
+    font-size:19px;
+    font-weight:bold;
+    border:1px solid #384050;
+    background-color:#384050;
+    opacity:0.7;
+    border-radius:10px;  
+}
+.div-p1{
+    justify-content:center;
+    align-items:center;
+    padding:10px;
+}
+.divs-p1 p{
+    color:red;
+    font-size:22px;
+}
+.list-artisans{
+    margin:50px 0;
+}
+.metiers-ali{
+    margin:50px 0;
+    padding:50px;
+}
+.metiers{
+    margin:50px 0;
+    padding:20px 0;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    gap:40px;
+}
+.imgs-metier{
+    width:40%;
+    border-top:1px solid #cd2c2e;
+    border-bottom:1px solid #cd2c2e;
+    padding:20px 0;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:20px;
+}
+.btns-color{
+    color:white;
+    background-color:#cd2c2e;
+    border:0.3px solid white;
+    font-size:12px;
+}
+.img-d img{
+    border-radius:10px; 
+}
+.img-d {
+    position:relative;
+    border-radius:10px;
+    cursor:pointer;  
+}
+
+.img-d img:hover{
+width:300px;
+height:300px;
+}
+.autres-secteurs{
+    margin-bottom:100px;
+    padding-bottom:230px;
+    padding-left:50px;
+    padding-right:50px;
+    background-color:#00497c;
+    color:white;
+    margin-bottom:-200px;
+}
+.secteurs{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    margin-top:50px;
+    padding:0 50px;
+    gap:30px;
+}
+.secteur-div{
+    width:530px;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    flex-direction:row;
+    gap:30px;
+}
+.secteur-div1{
+    padding:10px;
+}
+
+.secteur-div1 a{
+    color:white;
+    font-size:20px;
+}
+.autres-secteurs h1{
+    color:white;
+    padding-top:50px;
+}
+@media (max-width: 1144px){
+    .alims-container p{
+        font-size:15px;
+    }
+    .divs-infos{
+        padding:20px 40px;
+        width:50%;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+    .chiffre-emplois{
+        width:350px;
+        padding:5px; 
+        gap:5;
+        font-size:15px;
+    }
+    .divs-p1{
+        justify-content:center;
+        align-items:center;
+        padding:10px;
+    }
+    .divs-p1 p{
+        color:#cd2c2e;
+        font-size:17px;
+    }
+    .metiers{
+        margin:50px 0;
+        padding:20px 0;
+        display:flex;
+        flex-direction:column;
+        flex-wrap:wrap;
+        justify-content:center;
+        align-items:center;
+        gap:40px;
+    }
+    .imgs-metier{
+        width:100%;
+        border-top:1px solid #cd2c2e;
+        border-bottom:1px solid #cd2c2e;
+        padding:20px 0;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        gap:20px;
+    }
+    .secteurs{
+        display:flex;
+        flex-direction:column;
+        justify-content:start;
+        flex-wrap:wrap;
+        margin-top:50px;
+        padding:0 0px;
+        gap:30px;
+    }
+    .secteur-div{
+        width:100%;
+        justify-content:start;
+        align-items:center;
+        display:flex;
+        flex-direction:row;
+        gap:50px;
+        padding:0 40px;
+    }
+    .secteur-div1 p{
+        font-size:13px;
+    }
+    .secteur-div1 a{
+        color:white;
+        font-size:12px;
+    }
+    .secteur-div1 h3{
+        font-size:22px;
+    }
+    .autres-secteurs h1{
+        font-size:22px;
+        color:white;
+        padding-top:50px;
+    }
+}
+@media (max-width: 770px){
+    .divs-infos{
+        padding:20px 20px;
+        width:50%;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+    .chiffre-emplois{
+        width:250px;
+        padding:5px; 
+        gap:5;
+        font-size:13px;
+    }
+    .divs-p1{
+        justify-content:center;
+        align-items:center;
+        padding:10px;
+    }
+    .divs-p1 p{
+        color:#cd2c2e;
+        font-size:14px;
+    }
+    
+}
+@media (max-width: 620px){
+    .divs-infos{
+        padding:20px 20px;
+        width:50%;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+    .chiffre-emplois{
+        width:200px;
+        padding:5px; 
+        gap:5;
+        font-size:12px;
+    }
+    .divs-p1{
+        justify-content:center;
+        align-items:center;
+        padding:10px;
+    }
+    .divs-p1 p{
+        color:#cd2c2e;
+        font-size:14px;
+    }
+    .divs-infos p{
+        font-size:12px;
+    }
+}
+@media (max-width: 480px){
+    .metiers-ali{
+        margin:50px 0;
+        padding:50px 20px;
+    }
+    .alims-container{
+        display:flex;
+        height:450px;
+        flex-direction:column;
+        background-color:#cd2c2e;
+        color:white;
+        gap:10px;
+    }
+    .divs-infos{
+        padding:20px 20px;
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+    .divs-img{
+        width:100%;
+        background-image:url('./batiment.jpg');
+        background-size:cover;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        padding:50px 0;
+    }
+    .img-d img{
+        border-radius:10px; 
+        width:100px; 
+        height:100px; 
+    }
+    .img-metier h3{
+        font-size:11px;
+    }
+    .btn-color{
+        font-size:9px; 
+    }
+    .autres-secteurs{
+        margin-bottom:100px;
+        padding-bottom:230px;
+        padding-left:10px;
+        padding-right:10px;
+        background-color:#00497c;
+        color:white;
+        margin-bottom:-200px;
+    }
+    .secteur-div1{
+        padding:10px 0px;
+        width:250px;
+    }
+@media (max-width: 380px){
+    .divs-infos{
+        padding:10px 20px;
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+    .divs-infos p{
+        font-size:10px;
+    }
+    .divs-img{
+        width:100%;
+        background-image:url('./batiment.jpg');
+        background-size:cover;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        padding:50px 0;
+    }
+    .img-d img{
+        border-radius:10px; 
+        width:80px; 
+        height:80px; 
+    }
+    .autres-secteurs{
+        margin-bottom:100px;
+        padding-bottom:230px;
+        padding-left:5px;
+        padding-right:5px;
+        background-color:#00497c;
+        color:white;
+        margin-bottom:-200px;
+    }
+    .alims-container{
+        display:flex;
+        height:410px;
+        flex-direction:column;
+        background-color:#cd2c2e;
+        color:white;
+        gap:10px;
+    }
+    .secteur-div{
+        width:100%;
+        justify-content:start;
+        align-items:center;
+        display:flex;
+        flex-direction:row;
+        gap:30px;
+        padding:0 3 0px;
+    }
+        .secteur-div1{
+            width:270px;
+        }
+     .secteur-div-mg img{
+        width:60px;
+     }
+    }
+}

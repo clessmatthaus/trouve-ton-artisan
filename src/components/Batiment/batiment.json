@@ -1,0 +1,52 @@
+[
+    {
+		"id": 1	,
+		"name": "Vallis Bellemare",
+		"specialty": "Plombier",
+		"note": "4",
+		"location": "Vienne",
+		"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend ante sem, id volutpat massa fermentum nec. Praesent volutpat scelerisque mauris, quis sollicitudin tellus sollicitudin. ",
+		"email":"v.bellemare@gmail.com",
+		"website":"https://plomberie-bellemare.com",
+		"category":"Bâtiment",
+		"image": "assets/boulanger.png",
+		"top": false
+	},
+    {
+		"id": 7	,
+		"name": "Boutot & fils",
+		"specialty": "Menuisier",
+		"note": "4.7",
+		"location": "Bourg-en-bresse",
+		"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend ante sem, id volutpat massa fermentum nec. Praesent volutpat scelerisque mauris, quis sollicitudin tellus sollicitudin. ",
+		"email":"boutot-menuiserie@gmail.com",
+		"website":"https://boutot-menuiserie.com",
+		"category":"Bâtiment",
+		"top": false
+	},
+    {
+		"id": 9,
+		"name": "Orville Salmons",
+		"specialty": "Chauffagiste",
+		"note": "5",
+		"location": "Evian",
+		"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend ante sem, id volutpat massa fermentum nec. Praesent volutpat scelerisque mauris, quis sollicitudin tellus sollicitudin. ",
+		"email":"o-salmons@live.com",
+		"website":"",
+		"category":"Bâtiment",
+		"top": true
+	},
+    {
+		"id": 12,
+		"name": "Mont Blanc Eléctricité",
+		"specialty": "Electricien",
+		"note": "4.5",
+		"location": "Chamonix",
+		"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend ante sem, id volutpat massa fermentum nec. Praesent volutpat scelerisque mauris, quis sollicitudin tellus sollicitudin. ",
+		"email":"contact@mont-blanc-electricite.com",
+		"website":"https://mont-blanc-electricite.com",
+		"category":"Bâtiment",
+		"top": false
+	}
+    
+]
