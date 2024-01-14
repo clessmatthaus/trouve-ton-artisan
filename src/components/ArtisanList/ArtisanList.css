@@ -149,10 +149,10 @@
     text-align:center;
     background-color:white;
     font-family:Graphik;
-    border:1px solid whitesmoke;
+    border:1px solid white;
     cursor: pointer;
     z-index:3;
-    box-shadow: 0 3px 5px -1px #f1f8fc ,  0 5px 5px gray, 0 1px 10px #f1f8fc ;
+    box-shadow: 0 3px 5px -1px white ,  0 5px 5px gray, 0 1px 10px ;
 }
 .sort-div{
   padding:20px;
@@ -277,6 +277,11 @@
     }
     .input-search{
       width:310px;
+    }
+    .link-back img{
+      width:10px;
+      height:10px;
+      margin-top:4px;
     }
   }
   @media (max-width: 330px)
