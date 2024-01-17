@@ -10,7 +10,7 @@ import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 
 function DetailArtisan() {
-  window.scrollTo(0,0)
+  //window.scrollTo(0,0)
 
   let {artisanId} = useParams();
   const artisan = artisanData.find((a)=>a.id == artisanId);

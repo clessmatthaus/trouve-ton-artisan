@@ -12,7 +12,7 @@ import fleuriste from './fleuriste.jpg';
 import toiletteur from './toiletteur.jpg';
 import webdesign from './webdesign.jpeg';
 import servives from './carrossier.jpg';
-import ali from './ali.png';
+import ali from './aliment.png';
 import bati from './bati.png';
 import fabri from './fabrik.png';
 import {Link} from 'react-router-dom';

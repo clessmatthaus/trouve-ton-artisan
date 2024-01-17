@@ -25,7 +25,7 @@ function App() {
           <Route path='/artisan/:artisanId' element={<DetailArtisan/>} />
           <Route path='/listeartisans' element={<ArtisanList/>} />
           <Route path='*' element={<NotFound/>} />
-          </Routes>
+        </Routes>
         
     </div> 
   );

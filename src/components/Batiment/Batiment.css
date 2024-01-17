@@ -278,6 +278,7 @@ height:300px;
     }
     .divs-infos p{
         font-size:12px;
+        font-weight:bold;
     }
 }
 @media (max-width: 480px){

@@ -24,10 +24,10 @@ function ArtisanList() {
    const [selectedCategory, setSelectedCategory] = useState(null);
    //console.log(query);
    const [data, setData] = useState(artisanData);
+
    const sorting = (cat) => {
       const result = artisanData.filter((currentData)=>{
         return currentData.category=== cat;
-  
       });
       setData(result);
    }

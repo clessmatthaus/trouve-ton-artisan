@@ -212,24 +212,28 @@ ol li:hover span{
     }
 }
 @media (max-width: 480px){
-    .home-container{
-    width:100%;
-    height:100%;
+.home-container{
     padding:100px 0px;
+}
+.find-process{
+width:100%;
 }
 .best-artisans {
     margin-top: 30px;
+    
 }
-    .find-artisan{
-        padding-top:220px;
-    }
-    .artisan-block{
+.find-artisan{
+    padding-top:220px;
+
+}
+    
+.artisan-block{
         display:flex;
         width: 100%;
         flex-direction:column;
         justify-content:center;
         align-items: center;
-        
+        width:100%; 
     }
     .art-jobs{
         width:100%;
@@ -284,8 +288,9 @@ ol li:hover span{
     ol li{
         margin-bottom:10px;
         cursor:pointer;
-        font-size:12px;
+        font-size:13px;
         position:relative;
+        font-weight:bold;
     }
     .art-img{        
         margin-top:-210px;
@@ -308,8 +313,9 @@ ol li:hover span{
     ol li{
         margin-bottom:10px;
         cursor:pointer;
-        font-size:10px;
+        font-size:11px;
         position:relative;
+        font-weight:bold;
     }
     h1{
         font-family:Graphik;

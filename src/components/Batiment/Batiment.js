@@ -16,7 +16,7 @@ import electricien from './electricien.jpg';
 import menuisier from './menuisier.jpg';
 import plombier from './plombier.jpeg';
 import couvreur from './couvreur.jpeg';
-import ali from './ali.png';
+import ali from './aliment.png';
 import fabrik from './fabrik.png';
 import meca from './meca.png';
 

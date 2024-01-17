@@ -11,7 +11,7 @@ import cordonnier from './cordonnier.jpg';
 import couturiere from './couturiere.jpeg';
 import ferronier from './ferronier.jpg';
 import ebeniste from './ebeniste.jpeg';
-import ali from './ali.png';
+import ali from './aliment.png';
 import bati from './bati.png';
 import meca from './meca.png';
 import {Link} from 'react-router-dom';
