@@ -202,6 +202,7 @@
 }
 .form-control{
   width:100%;
+  margin-top:50px;
 }
 .input-search{
   width:600px;
@@ -212,6 +213,7 @@
   background-color:#384050;
   padding:10px;
   cursor:pointer;
+  margin-top:50px;
   z-index:5;
 }
   @media (max-width: 680px)

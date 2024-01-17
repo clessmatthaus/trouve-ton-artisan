@@ -12,21 +12,22 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 //React font Awesome Import
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faBars} from "@fortawesome/free-solid-svg-icons";
+import artis from './datas.json';
 
 
 function Header() {
 
   const [value, setValue] = useState()
-  const [data, setData] = useState([])
+  const [data, setData] = useState(artis)
 
   const onChange = async (e) => {
     setValue(e.target.value)
-    const response = await fetch('http://localhost:3000/api/datas.json')
-    const data = await response.json()
+    const response = artis
+    const data = await response
     setData(data)
   }
   return (
-  <div>
+  <>
     <Navbar expand="lg"  className="header">
     <Container fluid>
       <NavLink exact to="/" activeClassName="navActive">
@@ -62,7 +63,7 @@ function Header() {
             placeholder="Trouver un artisan"onChange={onChange} value={value} 
             className="me-2"
             />
-          <Button variant="outline-primary">Rechercher</Button>
+          <Button variant="outline-primary" className="">Rechercher</Button>
         </Form>
            
       </Navbar.Collapse>
@@ -76,12 +77,11 @@ function Header() {
         <Link className="links-styles" to={`/artisan/${item.id}`}><p>{item.name} </p></Link>
         <Link className="links-styles" to={`/artisan/${item.id}`}><p>{item.specialty}</p></Link>
         <Link className="links-styles" to={`/artisan/${item.id}`}><p><b>{item.location}</b></p></Link>
-        
         <hr/>
         </div>)    
     }
   </div>
-</div>
+</>
   )
 }
 

@@ -29,10 +29,10 @@ function Footer() {
         <div className="liens">
             <h4>Liens</h4>
             <ul>
-                <li><Link class="links" to="/">Accueil</Link></li>
-                <li><Link class="links" to="/batiment">Bâtiment</Link></li>
-                <li><Link class="links" to="/services">Services</Link></li>
-                <li><Link class="links" to="/alimentation">Alimentation</Link></li>
+                <li><Link className="links" to="/">Accueil</Link></li>
+                <li><Link className="links" to="/batiment">Bâtiment</Link></li>
+                <li><Link className="links" to="/services">Services</Link></li>
+                <li><Link className="links" to="/alimentation">Alimentation</Link></li>
             </ul>
         </div>
         <div className="ste-adress">

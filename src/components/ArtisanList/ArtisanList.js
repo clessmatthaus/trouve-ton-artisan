@@ -47,7 +47,7 @@ function ArtisanList() {
     <div className="link-back"><Link to="/" className="links-style"><p>Accueil</p></Link><img src={left} alt=""/> <p>Liste des artisans</p> </div>    
     <div className="section">
       <div className="input-group  mt-5 input-search"> 
-        <input className="form-control" placeholder="nom, spécialité, ville, catégorie..." type="text" onChange={e=> setQuery(e.target.value)}/> 
+        <input className="form-control" placeholder="nom, spécialité, ville..." type="text" onChange={e=> setQuery(e.target.value)}/> 
         <img src={loup} alt=""/>
       </div>
        <div className="sort-div">

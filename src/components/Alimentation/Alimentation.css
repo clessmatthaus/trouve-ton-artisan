@@ -58,7 +58,7 @@
     padding:10px;
 }
 .div-p1 p{
-    color:green;
+    color:white;
     font-size:22px;
 }
 .list-artisans{
@@ -169,7 +169,6 @@ height:300px;
         padding:10px;
     }
     .div-p1 p{
-        color:#82b864;
         font-size:17px;
     }
     .metiers{
@@ -247,7 +246,6 @@ height:300px;
         padding:10px;
     }
     .div-p1 p{
-        color:#82b864;
         font-size:14px;
     }
     
@@ -273,7 +271,6 @@ height:300px;
         padding:10px;
     }
     .div-p1 p{
-        color:#82b864;
         font-size:14px;
     }
     .div-infos p{
