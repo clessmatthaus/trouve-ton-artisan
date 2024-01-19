@@ -57,13 +57,15 @@ function Header() {
           <a className="nav-link">Services</a>
         </NavLink>
         </Nav>        
-        <Form className="d-flex">
+        <Form className="d-flex search-input">
         <Form.Control
             type="search"
             placeholder="Trouver un artisan"onChange={onChange} value={value} 
             className="me-2"
+            aria-label="Search"
+            
             />
-          <Button variant="outline-primary" className="">Rechercher</Button>
+          <Button variant="outline-primary" className="search-btn">Rechercher</Button>
         </Form>
            
       </Navbar.Collapse>

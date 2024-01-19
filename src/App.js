@@ -13,9 +13,9 @@ import {BrowserRouter}  from 'react-router-dom';
 import NotFound from './components/NotFound/NotFound';
 
 function App() {
+
   return (
     <div className="App">    
-        
         <Routes>
           <Route path='/' element={<Home/>} />
           <Route path='/batiment' element={<Batiment/>} />
@@ -25,8 +25,7 @@ function App() {
           <Route path='/artisan/:artisanId' element={<DetailArtisan/>} />
           <Route path='/listeartisans' element={<ArtisanList/>} />
           <Route path='*' element={<NotFound/>} />
-        </Routes>
-        
+        </Routes>      
     </div> 
   );
 }

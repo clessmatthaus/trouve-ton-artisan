@@ -6,10 +6,9 @@ import Artisan from '../../Container/Artisan';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 
-
 function Home() {
   window.scrollTo(0,0)
-
+ 
   return (
     <>
     <Header />

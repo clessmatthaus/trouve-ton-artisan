@@ -2,7 +2,7 @@
 .header{
   width: 100%;
   background-color:#f1f8fc;
-  min-height:200px;
+  min-height:180px;
   z-index: 5;
 
 }
@@ -51,15 +51,30 @@
 }
 .flex-div{
   min-height:180px;
-  
-  
 }
-.d-flex button{
-margin-top:50px;
+.search-btn{
 background-color:#0074c7;
 color:white;
 }
+.d-flex{
+  margin-right:30px;
+}
+.search-input{
+  margin-top:-50px;
+}
+.search-input button{
+  height:40px;
+  margin-top:50px;
+}
+@media (max-width: 991px){
+  .d-flex{
+    margin-left:30px;
+  }
+}
 @media (max-width: 480px){
+  .d-flex{
+    margin-left:30px;
+  }
   .colorLog img{
     width:240px;
   }
